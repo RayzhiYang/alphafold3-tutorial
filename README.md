@@ -14,7 +14,7 @@ Please also be acknowledged that part of the materials in this repository were p
 
 AlphaFold 3 is a deep learning model that can predict the structure of proteins, DNA, RNA, and their interactions with each other and with small molecules (ligands). It represents a significant leap forward from its predecessor, AlphaFold 2, by moving from predicting single protein structures to modeling large, complex biological systems.
 
-## Model Input and Output
+## Input and Output of AlphaFold 3
 
 At a high level, AlphaFold 3 takes information about biomolecular sequences and produces their 3D atomic coordinates.
 
@@ -32,7 +32,7 @@ The main output of the model is the predicted 3D structure.
 -   **`predicted_coords`**: A tensor containing the (x, y, z) coordinates for each atom.
     -   **Shape**: `(N_atoms, 3)`, where `N_atoms` is the total number of atoms.
 
-## High-Level Architecture: A Journey Through the Tutorials
+## High-Level Architecture
 
 The AlphaFold 3 model is complex, but we can understand it by breaking it down into three main stages. These stages correspond to the tutorial modules you will be implementing.
 
