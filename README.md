@@ -2,6 +2,14 @@
 
 Welcome to the AlphaFold 3 tutorial! This guide will walk you through implementing the key components of the AlphaFold 3 model, a revolutionary AI system from Google DeepMind for predicting the 3D structure of biomolecular complexes.
 
+This repository is inspired by https://github.com/kilianmandon/alphafold-decoded, a great tutorial on the implementation of AlphaFold using PyTorch. This repository is different in the following aspects:
+
+- This repository uses [JAX](https://jax.readthedocs.io/), and the [Flax Linen](https://flax-linen.readthedocs.io/en/latest/) library from the JAX ecosystem.
+- This repository aims at the implementation of AlphaFold 3 instead of AlphaFold. AlphaFold 3 includes novel components such as Pairformer and diffusion module.
+- This repository doesn't aim at an exact replicate of AlphaFold 3. Instead, this repository is designed to help people with deep learning foundations to learn the model architecture of AlphaFold 3. Components like feature preprocessing are not included in this repository.
+
+Please also be acknowledged that part of the materials in this repository were produced with the help of Gemini. With the help of the world knowledge and research capabilities from Gemini, I found Gemini to be very good at explaining concepts and design tutorial templates with proper hints, which serves at a fantastic starting point to learn the implementation of complex models like AlphaFold 3.
+
 ## What is AlphaFold 3?
 
 AlphaFold 3 is a deep learning model that can predict the structure of proteins, DNA, RNA, and their interactions with each other and with small molecules (ligands). It represents a significant leap forward from its predecessor, AlphaFold 2, by moving from predicting single protein structures to modeling large, complex biological systems.
